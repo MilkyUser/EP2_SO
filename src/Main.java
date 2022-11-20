@@ -1,10 +1,12 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
 
     public static String[] palavras;
+    public static Random random = new Random();
     public static void main(String [] args) throws FileNotFoundException {
 
         File texto = new File("/home/bruno/EP2_SO/src/bd.txt");
